@@ -31,8 +31,6 @@ The vegetable types this model can detect are:
 
 A tutorial on how to use this model can be found [here](). (Note: VSCode and a jetson-inference library is required in order to run this code)
 
-<space>
-</space>
 1: Clone the repository by running this command
 ```sh
 git clone https://github.com/MrSunnyboiii/Vegetable-Detection

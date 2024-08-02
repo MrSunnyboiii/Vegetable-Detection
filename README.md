@@ -29,7 +29,7 @@ _(The vegetable types this model can detect are)_
 
 ## Running this project
 
-A tutorial on how to use this model can be found [here](https://drive.google.com/file/d/1UyfS-x_trAJx6ubdC0CmKQOfWV6Cx_Lz/view?usp=sharing). (Note: VSCode and a jetson-inference library is required in order to run this code)
+A tutorial on how to use this model can be found [here](https://drive.google.com/file/d/1vFMuFJoOW9mAz2ibFwxbE4qKfJtcV3Sq/view?usp=sharing). (Note: VSCode and a jetson-inference library is required in order to run this code)
 
 
 1: Clone the repository by running this command

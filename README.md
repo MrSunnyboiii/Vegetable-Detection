@@ -4,9 +4,9 @@ This project uses the NVIDIA Jetson AI to identify different types of vegetables
 
 ![image of a vegetable](https://github.com/user-attachments/assets/dc1b424a-83c1-4051-aaef-f463614df979)
 
-## The Algorithm
+## The Model
 
-The model is trained from the resnet-18 model, using ([this](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)) dataset which contains 15000 images. The model was trained using jetson inference's built-in image recognition program. More details on the process can be found [on this page](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md ).
+This model is trained from the resnet-18 model, using ([this](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)) dataset which contains 15000 training images. The model was trained using jetson inference's built-in image recognition program. More details on the process can be found [on this page](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md ).
 
 The python file utilizes the .onnx file to recognize an image that the user inputs. A few test images are also included.
 

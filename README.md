@@ -3,7 +3,6 @@
 This project uses the NVIDIA Jetson AI to identify different types of plants
 
 ![image of a vegetable](https://github.com/user-attachments/assets/dc1b424a-83c1-4051-aaef-f463614df979)
-)
 
 ## The Algorithm
 
@@ -13,8 +12,8 @@ The python file utilizes the .onnx file to recognize an image that the user inpu
 
 This vegetable types this model can detect are:
 * Bean
-* Bitter_Gourd
-* Bottle_Gourd
+* Bitter Gourd
+* Bottle Gourd
 * Brinjal
 * Broccoli
 * Cabbage

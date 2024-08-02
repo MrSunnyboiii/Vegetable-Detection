@@ -1,6 +1,6 @@
 # Vegetable Identifier
 
-This project uses the NVIDIA Jetson AI to identify different types of plants
+This project uses the NVIDIA Jetson AI to identify different types of vegetables
 
 ![image of a vegetable](https://github.com/user-attachments/assets/dc1b424a-83c1-4051-aaef-f463614df979)
 

@@ -40,7 +40,7 @@ git clone https://github.com/MrSunnyboiii/Vegetable-Detection
 
 3: Move into the project folder
 ```sh
-cd VeggieIdentifier
+cd Vegetable-Detection
 ```
 
 4: Run the python script

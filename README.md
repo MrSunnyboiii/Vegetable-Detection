@@ -6,11 +6,11 @@ This project uses the NVIDIA Jetson AI to identify different types of vegetables
 
 ## The Algorithm
 
-The model is retrained from the resnet-18 model, using a dataset of over 5000 images ([Found here](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)). The model was retrained using jetson inference's built-in retraining system. More details on the process can be found [here](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md ).
+The model is trained from the resnet-18 model, using ([this](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)) dataset which contains 15000 images. The model was trained using jetson inference's built-in image recognition program. More details on the process can be found [on this page](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md ).
 
 The python file utilizes the .onnx file to recognize an image that the user inputs. A few test images are also included.
 
-This vegetable types this model can detect are:
+The vegetable types this model can detect are:
 * Bean
 * Bitter Gourd
 * Bottle Gourd
@@ -29,21 +29,19 @@ This vegetable types this model can detect are:
 
 ## Running this project
 
-[View a video explanation here]()
+A tutorial on how to use this model can be found [here](). (Note: VSCode and a jetson-inference library is required in order to run this code)
 
-1: Be sure the jetson inference library is installed on your system
-
-2: Clone the repository by running this command
+1: Clone the repository by running this command
 ```sh
 git clone https://github.com/MrSunnyboiii/Vegetable-Detection
 ```
 
-3: Move into the project folder
+2: Move into the project folder
 ```sh
 cd Vegetable-Detection
 ```
 
-4: Run the python script
+3: Run the python script by including an image of the vegetable you want to identify (Ex: test-images/0001.jpg)
 ```sh
 python3 vegetables.py path/to/file/here
 ```

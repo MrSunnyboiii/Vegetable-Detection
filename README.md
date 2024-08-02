@@ -35,7 +35,7 @@ This vegetable types this model can detect are:
 
 2: Clone the repository by running this command
 ```sh
-git clone [https://github.com/MrSunnyboiii/Vegetable-Detection]
+git clone https://github.com/MrSunnyboiii/Vegetable-Detection
 ```
 
 3: Move into the project folder

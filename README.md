@@ -1,16 +1,16 @@
 # Vegetable Identifier
 
-This project uses the NVIDIA Jetson AI to identify different types of vegetables
+This project uses the NVIDIA Jetson AI to identify different types of vegetables and fruits
 
 ![image of a vegetable](https://github.com/user-attachments/assets/dc1b424a-83c1-4051-aaef-f463614df979)
 
   ## THE MODEL
 
-This model is trained from the resnet-18 model, using ([this](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)) dataset which contains 15000 training images. The model was trained using jetson inference's built-in image recognition program. More details on the process can be found [on this page](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md ).
+This model was trained using jetson inference's image recognition program. More details on this model can be found [on this page](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-example-python-2.md ). It uses the resnet-18 model, which was retrained with ([this](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)) dataset that contains 15000 training images.
 
-The python file utilizes the .onnx file to recognize an image that the user inputs. A few test images are also included.
+A folder containing test images is included in this repository which the model will be able recognize as some of the following:
 
-The vegetable types this model can detect are:
+_(The vegetable types this model can detect are)_
 * Bean
 * Bitter Gourd
 * Bottle Gourd
